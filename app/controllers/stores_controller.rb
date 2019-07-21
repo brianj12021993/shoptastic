@@ -4,4 +4,7 @@ class StoresController < ApplicationController
 		@stores = Store.all
 	end
 
+	def new
+	end
+
 end
