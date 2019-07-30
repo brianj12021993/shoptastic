@@ -41,6 +41,14 @@
     </div>
   </nav>
 
+    <div id="footer">
+      <div class="container">
+         <b>Store Owners</b>
+         <br />
+         <%= link_to 'Add Items', new_user_item_path %>
+      </div>
+    </div>
+
   <% if notice.present? %>
     <p class="alert alert-info"><%= notice %></p>
   <% end %>
