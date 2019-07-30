@@ -5,6 +5,7 @@ class StoresController < ApplicationController
 	end
 
 	def new
+		@store = Store.new
 	end
 
 	def show
