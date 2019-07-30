@@ -37,5 +37,9 @@
     <h1><%= link_to store.name, store_path(store) %></h1><br />
     <i><%= store.address %></i><br /><br />
     <p><%= store.description %></p><br />
+
+     <% if store.user.present? %>
+      <small><%= store.user.email %></small>
+    <% end %>
   </div>
 <% end %>
